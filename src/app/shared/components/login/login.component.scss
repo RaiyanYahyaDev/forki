@@ -1,0 +1,83 @@
+.full {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+.left {
+    background-color: #F5F6FA;
+    .header {
+        align-items: center;
+        height:100px;
+        padding:24px;
+        .hLeft {
+            display: flex;
+            float: left;
+            text-align: left;
+            align-items: center;
+            .logoName {
+                color:#2196F3;
+                }
+            }
+        .hRight {
+            float: right;
+            text-align: right;
+            .create {
+                background: transparent;
+                width:141px;
+                border: 0.5px solid #C5C8CE;
+                border-radius: 8px;
+                }
+            }
+    }
+
+    .middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    // height: 100%;
+    // min-height: 100%;
+    .text-center {
+        width:100%;
+            .form-signin {
+                width: 100%;
+                max-width: 330px;
+                padding: 15px;
+                margin: 0 auto;
+                .checkbox {
+                font-weight: 400;
+                }
+                .form-control {
+                position: relative;
+                box-sizing: border-box;
+                height: auto;
+                padding: 10px;
+                font-size: 16px;
+                &:focus {
+                    z-index: 2;
+                }
+                }
+                input {
+                &[type="email"] {
+                    margin-bottom: -1px;
+                    border-bottom-right-radius: 0;
+                    border-bottom-left-radius: 0;
+                }
+                &[type="password"] {
+                    margin-bottom: 10px;
+                    border-top-left-radius: 0;
+                    border-top-right-radius: 0;
+                }
+                }
+            }
+        }
+    }  
+    }
+ .right {
+    background: url(assets/login1.jpg) no-repeat center;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    }
+}
+
+
+  
