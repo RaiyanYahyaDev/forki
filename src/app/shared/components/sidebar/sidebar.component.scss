@@ -1,0 +1,41 @@
+nav {
+    background: #3536D0;
+    height: 100%;
+    width: 76px;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            align-items: center;
+            text-align: center;
+            align-content: center;
+
+            a {
+                padding: 20px;
+                display: block;
+                color: #FBFBFB;
+                
+                :active {
+                    color:#8889DF;
+                } 
+
+               
+                    .user{
+                        color:#F5896F;
+                        font-size:40px;
+                    } 
+
+                 
+                  
+            }
+
+            .activated {
+                background-color: #00a8ff;
+            }
+        }
+    }
+    
+}
